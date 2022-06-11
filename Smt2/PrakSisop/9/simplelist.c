@@ -61,7 +61,7 @@ NODE* node;
 DATA element;
 printf("Add Elements to List: \n");
 init(&head) ;
-for (i = 53; i <= 63; i++) {
+for (i = 53; i <= 1000000; i++) {
 element.info = i;
 printf("Add Element %2d To The List.\n", element.info);
 head = add(head, element);
